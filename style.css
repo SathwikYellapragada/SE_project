@@ -1,0 +1,36 @@
+.searchbar{
+    position:absolute;
+    top: 20px;
+    right: 30px;
+}
+#value {
+    width: 276px;
+    height: 30px;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+#popular {
+    position: absolute;
+    top: 100px;
+    left: 125px;
+}
+
+.searchbar h2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#popular button {
+    display: block;
+    font-size: 20px;
+    background: transparent;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+}
+
+#popular button:hover{
+    text-decoration: underline;
+}
