@@ -1,0 +1,64 @@
+let popular= [
+    {name: "Pongal"},
+    {name: "Diwali"},      
+];
+               
+let festivals = [];
+
+fetch("festivals.json")
+    .then(response => response.json())
+    .then(data => {
+        festivals = data;
+});
+
+
+function searchFestival(){
+    
+    let username=document.getElementById("value").value
+    let foundfestival =festivals.find(function(festival){           
+        return festival.name.toLowerCase()===username.toLowerCase()              
+    });
+                 
+    if(foundfestival){
+        document.getElementById("result").innerHTML=`
+        <h2>${foundfestival.name}</h2>             
+        <p>Origin:${foundfestival.origin.name}</p>
+        <p>Food:${foundfestival.food}</p>
+         <h3>Celebrated In:</h3>
+         `;
+          foundfestival.celebratedIn.forEach(function(celebrated){
+                 document.getElementById("result").innerHTML +=`
+                 <p>${celebrated.name}</p>
+                 `;
+    });   
+                
+         } else{
+            document.getElementById("result").innerHTML=`
+            <h2>No Festival Found</h2>
+           `;
+        }
+}
+
+               
+document.getElementById("value").addEventListener("keydown", function(event){            
+    if(event.key === "Enter") {         
+        searchFestival();           
+    }                
+});
+
+       
+let festivalButtons = document.getElementById("popular")
+
+popular.forEach(function(festival){
+                
+    let buttons = document.createElement("button");  
+    buttons.textContent = festival.name;
+           
+    buttons.onclick = function(){
+        document.getElementById("value").value = festival.name;           
+        searchFestival();         
+        document.getElementById("value").value = "";           
+    };
+
+    festivalButtons.appendChild(buttons);              
+});

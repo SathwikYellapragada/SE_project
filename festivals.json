@@ -1,0 +1,232 @@
+[
+    {
+        "name": "Pongal",
+        "origin": {
+            "id": "INTN",
+            "name": "Tamil Nadu"
+        },
+        "food": "Sakkarai Pongal",
+        "celebratedIn": [
+            {
+                "id": "INKA",
+                "name": "Karnataka"
+            },
+            {
+                "id": "INAP",
+                "name": "Andhra Pradesh"
+            },
+            {
+                "id": "INTG",
+                "name": "Telangana"
+            }
+        ]
+    },
+    {
+        "name": "Diwali",
+        "origin": {
+            "id": "INUP",
+            "name": "Uttar Pradesh"
+        },
+        "food": "Sweets",
+        "celebratedIn": [
+            {
+                "id": "INMH",
+                "name": "Maharashtra"
+            },
+            {
+                "id": "INGJ",
+                "name": "Gujarat"
+            },
+            {
+                "id": "INRJ",
+                "name": "Rajasthan"
+            },
+            {
+                "id": "INTN",
+                "name": "Tamil Nadu"
+            },
+            {
+                "id": "INKA",
+                "name": "Karnataka"
+            }
+        ]
+    },
+    {
+        "name": "Holi",
+        "origin": {
+            "id": "INUP",
+            "name": "Uttar Pradesh"
+        },
+        "food": "Gujiya",
+        "celebratedIn": [
+            {
+                "id": "INRJ",
+                "name": "Rajasthan"
+            },
+            {
+                "id": "INMP",
+                "name": "Madhya Pradesh"
+            },
+            {
+                "id": "INDL",
+                "name": "Delhi"
+            },
+            {
+                "id": "INMH",
+                "name": "Maharashtra"
+            }
+        ]
+    },
+    {
+        "name": "Onam",
+        "origin": {
+            "id": "INKL",
+            "name": "Kerala"
+        },
+        "food": "Onam Sadya",
+        "celebratedIn": []
+    },
+    {
+        "name": "Bihu",
+        "origin": {
+            "id": "INAS",
+            "name": "Assam"
+        },
+        "food": "Pitha",
+        "celebratedIn": []
+    },
+    {
+        "name": "Durga Puja",
+        "origin": {
+            "id": "INWB",
+            "name": "West Bengal"
+        },
+        "food": "Khichuri",
+        "celebratedIn": [
+            {
+                "id": "INTR",
+                "name": "Tripura"
+            },
+            {
+                "id": "INOD",
+                "name": "Odisha"
+            },
+            {
+                "id": "INAS",
+                "name": "Assam"
+            },
+            {
+                "id": "INJH",
+                "name": "Jharkhand"
+            }
+        ]
+    },
+    {
+        "name": "Ganesh Chaturthi",
+        "origin": {
+            "id": "INMH",
+            "name": "Maharashtra"
+        },
+        "food": "Modak",
+        "celebratedIn": [
+            {
+                "id": "INKA",
+                "name": "Karnataka"
+            },
+            {
+                "id": "INGA",
+                "name": "Goa"
+            },
+            {
+                "id": "INTN",
+                "name": "Tamil Nadu"
+            },
+            {
+                "id": "INGJ",
+                "name": "Gujarat"
+            }
+        ]
+    },
+    {
+        "name": "Navratri",
+        "origin": {
+            "id": "INGJ",
+            "name": "Gujarat"
+        },
+        "food": "Fasting dishes",
+        "celebratedIn": [
+            {
+                "id": "INMH",
+                "name": "Maharashtra"
+            },
+            {
+                "id": "INRJ",
+                "name": "Rajasthan"
+            },
+            {
+                "id": "INUP",
+                "name": "Uttar Pradesh"
+            },
+            {
+                "id": "INDL",
+                "name": "Delhi"
+            }
+        ]
+    },
+    {
+        "name": "Christmas",
+        "origin": {
+            "id": "INGA",
+            "name": "Goa"
+        },
+        "food": "Christmas cake",
+        "celebratedIn": [
+            {
+                "id": "INKL",
+                "name": "Kerala"
+            },
+            {
+                "id": "INTN",
+                "name": "Tamil Nadu"
+            },
+            {
+                "id": "INMH",
+                "name": "Maharashtra"
+            },
+            {
+                "id": "INWB",
+                "name": "West Bengal"
+            }
+        ]
+    },
+    {
+        "name": "Eid",
+        "origin": {
+            "id": "INUP",
+            "name": "Uttar Pradesh"
+        },
+        "food": "Biryani and sweets",
+        "celebratedIn": [
+            {
+                "id": "INWB",
+                "name": "West Bengal"
+            },
+            {
+                "id": "INMH",
+                "name": "Maharashtra"
+            },
+            {
+                "id": "INTG",
+                "name": "Telangana"
+            },
+            {
+                "id": "INKA",
+                "name": "Karnataka"
+            },
+            {
+                "id": "INKL",
+                "name": "Kerala"
+            }
+        ]
+    }
+]
