@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SE PROJECT</title>
+    </head>
+    <body>
+         <h1>INDIAN FESTIVAL REGIONAL VARIATION EXPLORER</h1>
+          <h2> SEARCH THE INDIAN FESTIVAL</h2>
+           <input type="text" id="value"> 
+           <button onclick="searchFestival()" >SEARCH</button>
+           <div id="result"></div> 
+           <script>
+            let festivals= [
+              {  name:"Pongal",
+                 origin:"TamilNadu",
+                 food:"Sakarai pongal",
+           },
+            {
+                name:"Diwali" ,
+                origin:"UttarPradesh",
+                food:"sweets",
+            }
+            ];
+               function searchFestival(){
+                 let username=document.getElementById("value").value
+                  let foundfestival =festivals.find(function(festival){
+                    return festival.name.toLowerCase()===username.toLowerCase()
+                  });
+                 if(foundfestival){
+                    document.getElementById("result").innerHTML=`
+                     <h2>${foundfestival.name}</h2>
+                     <p>Origin:${foundfestival.origin}</p>
+                     <p>Food:${foundfestival.food}</p>
+                     `;
+                 }
+               }
+           </script>
+    </body>
+</html>
