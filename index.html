@@ -2,12 +2,23 @@
 <html>
     <head>
         <title>SE PROJECT</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-         <h1>INDIAN FESTIVAL REGIONAL VARIATION EXPLORER</h1>
-          <h2> SEARCH THE INDIAN FESTIVAL</h2>
-           <input type="text" id="value"> 
-           <button onclick="searchFestival()" >SEARCH</button>
+        <h1>INDIAN HERITAGE EXPLORER</h1>
+         <div class="searchbar">
+        <input type="text" id="value" placeholder="Search a festival name..."> 
+           <button onclick="searchFestival()" id="button" style="height: 30px;width: 30px;">
+🔍
+</button>
+<h2>POPULAR FESTIVALS</h2>
+<div id="popular">
+</div>
+
+</div>
+
+<br>
+ <p></p>
            <div id="result"></div> 
            <script>
             let festivals= [
@@ -21,6 +32,10 @@
                 food:"sweets",
             }
             ];
+            let popular= [
+                {name: "Pongal"},
+                {name: "Diwali"}
+            ];
                function searchFestival(){
                  let username=document.getElementById("value").value
                   let foundfestival =festivals.find(function(festival){
@@ -32,8 +47,34 @@
                      <p>Origin:${foundfestival.origin}</p>
                      <p>Food:${foundfestival.food}</p>
                      `;
+                 } else{
+                    document.getElementById("result").innerHTML=`
+                    <h2>No Festival Found</h2>
+                    `;
                  }
                }
+
+               document.getElementById("value").addEventListener("keydown", function(event){
+                if(event.key === "Enter") {
+                    searchFestival();
+                }  
+               });
+
+               let festivalButtons = document.getElementById("popular")
+
+               popular.forEach(function(festival){
+                let buttons = document.createElement("button");
+
+                buttons.textContent = festival.name;
+
+                buttons.onclick = function(){
+                    document.getElementById("value").value = festival.name;
+                    searchFestival();
+                    document.getElementById("value").value = "";
+                };
+
+                festivalButtons.appendChild(buttons);
+               });
            </script>
     </body>
 </html>
