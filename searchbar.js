@@ -20,6 +20,7 @@ function searchFestival(){
     });
                  
     if(foundfestival){
+        highlight(foundfestival.origin.id, true);
         document.getElementById("result").innerHTML=`
         <h2>${foundfestival.name}</h2>             
         <p>Origin:${foundfestival.origin.name}</p>
@@ -34,9 +35,10 @@ function searchFestival(){
 		      });
 	      }          
     }else{
-        document.getElementById("result").innerHTML=`
-          <h2>No Festival Found</h2>
-          `;
+      document.getElementById("result").innerHTML=`
+      <h2>No Festival Found</h2>
+      `;
+      highlight(null, true);
         }
 }
 
