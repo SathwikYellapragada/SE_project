@@ -6,14 +6,31 @@ async function loadSVG(){
 }
 
 let activeOrigin = null;
-function highlight(stateId, isOrigin){
+let activeCelebrated = [];
+
+function highlight(festival){
   
   if(activeOrigin){
     activeOrigin.style.fill = '';
   }
+  
+  if(activeCelebrated.length > 0){
+    activeCelebrated.forEach(function(state){
+      state.style.fill = '';
+    });
+    activeCelebrated = [];
+  }
 
-  activeOrigin = document.getElementById(stateId);
+  activeOrigin = document.getElementById(festival.origin.id);
   activeOrigin.style.fill = '#FF0000';
+  
+  if(festival.celebratedIn.length > 0){
+    festival.celebratedIn.forEach(function(celebrated){
+      let state = document.getElementById(celebrated.id);
+      state.style.fill = '#452bd9';
+      activeCelebrated.push(state);
+    });
+  }
 }
 
 loadSVG();
