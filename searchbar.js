@@ -24,18 +24,19 @@ function searchFestival(){
         <h2>${foundfestival.name}</h2>             
         <p>Origin:${foundfestival.origin.name}</p>
         <p>Food:${foundfestival.food}</p>
-         <h3>Celebrated In:</h3>
-         `;
-          foundfestival.celebratedIn.forEach(function(celebrated){
+        `;
+        if(foundfestival.celebratedIn.length > 0){
+          document.getElementById("result").innerHTML += `<h3> Celebrated in: </h3>`;
+		      foundfestival.celebratedIn.forEach(function(celebrated){
                  document.getElementById("result").innerHTML +=`
                  <p>${celebrated.name}</p>
                  `;
-    });   
-                
-         } else{
-            document.getElementById("result").innerHTML=`
-            <h2>No Festival Found</h2>
-           `;
+		      });
+	      }          
+    }else{
+        document.getElementById("result").innerHTML=`
+          <h2>No Festival Found</h2>
+          `;
         }
 }
 
