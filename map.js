@@ -3,6 +3,7 @@ async function loadSVG(){
   const svgtext = await response.text();
 
   document.getElementById('india-map').innerHTML = svgtext;
+  enableStateClicks();
 }
 
 let activeOrigin = null;
@@ -31,6 +32,15 @@ function highlight(festival){
       activeCelebrated.push(state);
     });
   }
+}
+function enableStateClicks(){
+  const paths=document.querySelectorAll('#features path[id^="IN"]');
+  paths.forEach(function(path){
+    path.style.cursor='pointer';
+    path.addEventListener('click',function(){
+      window.location.href=`state.html?state=${path.id}`;
+    });
+  });
 }
 
 loadSVG();

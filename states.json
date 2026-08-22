@@ -1,0 +1,242 @@
+[
+  {
+    "id": "INAN",
+    "name": "Andaman and Nicobar Islands",
+    "festivals": []
+  },
+  {
+    "id": "INAP",
+    "name": "Andhra Pradesh",
+    "festivals": [
+      "Pongal"
+    ]
+  },
+  {
+    "id": "INAR",
+    "name": "Arunachal Pradesh",
+    "festivals": []
+  },
+  {
+    "id": "INAS",
+    "name": "Assam",
+    "festivals": [
+      "Bihu",
+      "Durga Puja"
+    ]
+  },
+  {
+    "id": "INBR",
+    "name": "Bihar",
+    "festivals": []
+  },
+  {
+    "id": "INCH",
+    "name": "Chandigarh",
+    "festivals": []
+  },
+  {
+    "id": "INCT",
+    "name": "Chhattisgarh",
+    "festivals": []
+  },
+  {
+    "id": "INDH",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "festivals": []
+  },
+  {
+    "id": "INDL",
+    "name": "Delhi",
+    "festivals": [
+      "Holi",
+      "Navratri"
+    ]
+  },
+  {
+    "id": "INGA",
+    "name": "Goa",
+    "festivals": [
+      "Ganesh Chaturthi",
+      "Christmas"
+    ]
+  },
+  {
+    "id": "INGJ",
+    "name": "Gujarat",
+    "festivals": [
+      "Diwali",
+      "Ganesh Chaturthi",
+      "Navratri"
+    ]
+  },
+  {
+    "id": "INHP",
+    "name": "Himachal Pradesh",
+    "festivals": []
+  },
+  {
+    "id": "INHR",
+    "name": "Haryana",
+    "festivals": []
+  },
+  {
+    "id": "INJH",
+    "name": "Jharkhand",
+    "festivals": [
+      "Durga Puja"
+    ]
+  },
+  {
+    "id": "INJK",
+    "name": "Jammu and Kashmir",
+    "festivals": []
+  },
+  {
+    "id": "INKA",
+    "name": "Karnataka",
+    "festivals": [
+      "Pongal",
+      "Diwali",
+      "Ganesh Chaturthi",
+      "Eid"
+    ]
+  },
+  {
+    "id": "INKL",
+    "name": "Kerala",
+    "festivals": [
+      "Onam",
+      "Christmas",
+      "Eid"
+    ]
+  },
+  {
+    "id": "INLA",
+    "name": "Ladakh",
+    "festivals": []
+  },
+  {
+    "id": "INLD",
+    "name": "Lakshadweep",
+    "festivals": []
+  },
+  {
+    "id": "INMH",
+    "name": "Maharashtra",
+    "festivals": [
+      "Diwali",
+      "Holi",
+      "Ganesh Chaturthi",
+      "Navratri",
+      "Christmas",
+      "Eid"
+    ]
+  },
+  {
+    "id": "INML",
+    "name": "Meghalaya",
+    "festivals": []
+  },
+  {
+    "id": "INMN",
+    "name": "Manipur",
+    "festivals": []
+  },
+  {
+    "id": "INMP",
+    "name": "Madhya Pradesh",
+    "festivals": [
+      "Holi"
+    ]
+  },
+  {
+    "id": "INMZ",
+    "name": "Mizoram",
+    "festivals": []
+  },
+  {
+    "id": "INNL",
+    "name": "Nagaland",
+    "festivals": []
+  },
+  {
+    "id": "INOR",
+    "name": "Odisha",
+    "festivals": [
+      "Durga Puja"
+    ]
+  },
+  {
+    "id": "INPB",
+    "name": "Punjab",
+    "festivals": []
+  },
+  {
+    "id": "INPY",
+    "name": "Puducherry",
+    "festivals": []
+  },
+  {
+    "id": "INRJ",
+    "name": "Rajasthan",
+    "festivals": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ]
+  },
+  {
+    "id": "INSK",
+    "name": "Sikkim",
+    "festivals": []
+  },
+  {
+    "id": "INTG",
+    "name": "Telangana",
+    "festivals": [
+      "Pongal",
+      "Eid"
+    ]
+  },
+  {
+    "id": "INTN",
+    "name": "Tamil Nadu",
+    "festivals": [
+      "Pongal",
+      "Diwali",
+      "Ganesh Chaturthi",
+      "Christmas"
+    ]
+  },
+  {
+    "id": "INTR",
+    "name": "Tripura",
+    "festivals": [
+      "Durga Puja"
+    ]
+  },
+  {
+    "id": "INUP",
+    "name": "Uttar Pradesh",
+    "festivals": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid"
+    ]
+  },
+  {
+    "id": "INUT",
+    "name": "Uttarakhand",
+    "festivals": []
+  },
+  {
+    "id": "INWB",
+    "name": "West Bengal",
+    "festivals": [
+      "Durga Puja",
+      "Christmas",
+      "Eid"
+    ]
+  }
+]
