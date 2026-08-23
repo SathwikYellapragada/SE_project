@@ -40,7 +40,6 @@ function enableStateClicks(){
     path.style.cursor='pointer';
     path.addEventListener('click',function(e){
       e.preventDefault();
-      //highlight(null);
       loadStateInfo(path.id);
     });
     

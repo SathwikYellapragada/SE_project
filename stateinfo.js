@@ -13,6 +13,16 @@ function loadStateInfo(stateId) {
     activeHighlightedState.style.fill = '';
   }
   
+  if(activeOrigin){
+    activeOrigin.style.fill = '';
+  }
+  if(activeCelebrated.length > 0){
+    activeCelebrated.forEach(function(state){
+      state.style.fill = '';
+    });
+    activeCelebrated = [];
+  }
+
   activeHighlightedState = document.getElementById(state.id);
   activeHighlightedState.style.fill = '#e9f542';
 
