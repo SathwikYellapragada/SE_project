@@ -39,9 +39,11 @@ function enableStateClicks(){
   paths.forEach(function(path){
     path.style.cursor='pointer';
     path.addEventListener('click',function(){
-      window.location.href=`index.html?state=${path.id}`;
+      path.style.fill='#eefa0a';
+      showStateInfo(path.id);
     });
-  });
+    
+  }); 
 }
 
 loadSVG();

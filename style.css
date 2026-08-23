@@ -34,3 +34,26 @@
 #popular button:hover{
     text-decoration: underline;
 }
+#india-map svg{
+    width: 680px;
+    height: 680px;
+}
+#result{
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+#state-info{
+    position:absolute;
+    right: 50px;
+    top: 200px;
+}
+.Festival-Button{
+    display: block;
+    font-size: 20px;
+    background: transparent;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+}
