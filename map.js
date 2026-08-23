@@ -43,7 +43,8 @@ function enableStateClicks(){
       //highlight(null);
       loadStateInfo(path.id);
     });
-  });
+    
+  }); 
 }
 
 loadSVG();
