@@ -38,8 +38,10 @@ function enableStateClicks(){
   const paths=document.querySelectorAll('#features path[id^="IN"]');
   paths.forEach(function(path){
     path.style.cursor='pointer';
-    path.addEventListener('click',function(){
-      window.location.href=`index.html?state=${path.id}`;
+    path.addEventListener('click',function(e){
+      e.preventDefault();
+      //highlight(null);
+      loadStateInfo(path.id);
     });
   });
 }
