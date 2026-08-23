@@ -39,7 +39,7 @@ function enableStateClicks(){
   paths.forEach(function(path){
     path.style.cursor='pointer';
     path.addEventListener('click',function(){
-      window.location.href=`state.html?state=${path.id}`;
+      window.location.href=`index.html?state=${path.id}`;
     });
   });
 }
