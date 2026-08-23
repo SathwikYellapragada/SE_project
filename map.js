@@ -33,6 +33,7 @@ function highlight(festival){
     });
   }
 }
+
 function enableStateClicks(){
   const paths=document.querySelectorAll('#features path[id^="IN"]');
   paths.forEach(function(path){
