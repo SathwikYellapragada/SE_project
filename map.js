@@ -1,9 +1,13 @@
+let paths = [];
+
 async function loadSVG(){
   const response = await fetch('in.svg');
   const svgtext = await response.text();
 
   document.getElementById('india-map').innerHTML = svgtext;
-  enableStateClicks();
+  
+  paths = document.querySelectorAll('#features path[id^="IN"]');
+  enableStateClicks(paths);
 }
 
 let activeOrigin = null;
@@ -34,16 +38,25 @@ function highlight(festival){
   }
 }
 
-function enableStateClicks(){
-  const paths=document.querySelectorAll('#features path[id^="IN"]');
+function handleClick(e){  
+  e.preventDefault();
+  path = e.currentTarget;
+  loadStateInfo(path.id);
+}
+
+function enableStateClicks(paths){
+  //const paths=document.querySelectorAll('#features path[id^="IN"]');
   paths.forEach(function(path){
     path.style.cursor='pointer';
-    path.addEventListener('click',function(e){
-      e.preventDefault();
-      loadStateInfo(path.id);
-    });
-    
-  }); 
+    path.addEventListener('click', handleClick);
+  });
+}
+
+function disableStateClicks(paths){
+  paths.forEach(function(path){
+    path.style.cursor='default';
+    path.removeEventListener('click', handleClick);
+  });
 }
 
 loadSVG();
