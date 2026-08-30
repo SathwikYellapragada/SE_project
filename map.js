@@ -1,5 +1,5 @@
 let paths = [];
-
+let activeFestivalData=null;
 async function loadSVG(){
   const response = await fetch('in.svg');
   const svgtext = await response.text();
@@ -43,20 +43,31 @@ function handleClick(e){
   path = e.currentTarget;
   loadStateInfo(path.id);
 }
-
-function enableStateClicks(paths){
+function handleCelebratedClick(e){
+ e.preventDefault();
+ const compareStateId=e.currentTarget.id;
+  openComparison(activeFestivalData,compareStateId);
+}
+function enableStateClicks(paths,handler=handleClick){
   //const paths=document.querySelectorAll('#features path[id^="IN"]');
   paths.forEach(function(path){
     path.style.cursor='pointer';
-    path.addEventListener('click', handleClick);
+    path.addEventListener('click',handler);
   });
 }
 
-function disableStateClicks(paths){
+function disableStateClicks(paths,handler=handleClick){
   paths.forEach(function(path){
     path.style.cursor='default';
-    path.removeEventListener('click', handleClick);
+    path.removeEventListener('click', handler);
   });
+}
+function openComparison(festival,stateId){
+  const params=new URLSearchParams({
+    FestivalName:festival.name,
+    compareId: stateId
+  })
+  window.open(`compare.html?${params.toString()}`,' _blank');
 }
 
 loadSVG();

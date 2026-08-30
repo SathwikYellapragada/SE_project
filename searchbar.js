@@ -21,11 +21,11 @@ function searchFestival(){
                  
     if(foundfestival){
         highlight(foundfestival);
-
+        activeFestivalData=foundfestival;
         disableStateClicks(paths);
         celebratedPaths = foundfestival.celebratedIn.map(state => `#features path#${state.id}`).join(", ");
         paths = document.querySelectorAll(celebratedPaths);
-        enableStateClicks(paths);
+        enableStateClicks(paths,handleCelebratedClick);
 
         document.getElementById("result").innerHTML=`
         <h2>${foundfestival.name}</h2>             
