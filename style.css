@@ -57,4 +57,17 @@
     cursor: pointer;
     margin-left: 100px;
 }
+.compare-table{
+  font-size: 18px;
+  margin:auto;
+}
+#comparison-info h1{
+    text-align: center;
+}
+#color{
+    position: absolute;
+    right:900px;
+    top: 100px;
+}
+
 

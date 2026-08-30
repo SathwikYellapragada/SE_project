@@ -30,7 +30,7 @@ function searchFestival(){
         document.getElementById("result").innerHTML=`
         <h2>${foundfestival.name}</h2>             
         <p>Origin:${foundfestival.origin.name}</p>
-        <p>Food:${foundfestival.food}</p>
+        <p>Food:${foundfestival.origin.food}</p>
         `;
         if(foundfestival.celebratedIn.length > 0){
           document.getElementById("result").innerHTML += `<h3> Celebrated in: </h3>`;

@@ -1,3 +1,4 @@
+
 [
   {
     "id": "INAN",
@@ -8,7 +9,20 @@
     "id": "INAP",
     "name": "Andhra Pradesh",
     "festivals": [
-      "Pongal"
+      {
+        "name": "Pongal",
+        "food": "Pongal ",
+        "duration": "4 days",
+        "celebration": "Celebrated as Sankranti with elaborate muggu (rangoli) art, bullfighting events, and family reunions.",
+        "rituals": [
+          "Muggu rangoli art",
+          "Bullfights (Jallikattu-style)",
+          "Kite flying"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   },
   {
@@ -21,7 +35,20 @@
     "name": "Assam",
     "festivals": [
       "Bihu",
-      "Durga Puja"
+      {
+        "name": "Durga Puja",
+        "food": "Khichuri and labra",
+        "duration": "5 days",
+        "celebration": "Celebrated widely in Guwahati with community pandals, alongside local Bihu-style cultural performances.",
+        "rituals": [
+          "Pandal hopping",
+          "Cultural performances",
+          "Idol immersion"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
@@ -48,15 +75,54 @@
     "id": "INDL",
     "name": "Delhi",
     "festivals": [
-      "Holi",
-      "Navratri"
+      {
+        "name": "Holi",
+        "food": "Gujiya and bhang-infused thandai",
+        "duration": "1 day",
+        "celebration": "Large public gatherings and organized 'Holi parties' with music and colored powder have become common in the city.",
+        "rituals": [
+          "Public Holi parties",
+          "Bonfire the night before",
+          "Colored powder"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": true,
+        "peakTime": "All day"
+      },
+      {
+        "name": "Navratri",
+        "food": "Falahari (fasting) thali",
+        "duration": "9 nights",
+        "celebration": "Hosts some of the largest Ramlila grounds in the country, drawing huge crowds for the Dussehra effigy burning.",
+        "rituals": [
+          "Large-scale Ramlila",
+          "Kanya Pujan",
+          "Effigy burning"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
     "id": "INGA",
     "name": "Goa",
     "festivals": [
-      "Ganesh Chaturthi",
+      {
+        "name": "Ganesh Chaturthi",
+        "food": "Modak and patoleo",
+        "duration": "7 days",
+        "celebration": "Known locally as Chavath, celebrated with unique matoli decorations made of hanging fruits and forest produce above the idol.",
+        "rituals": [
+          "Matoli fruit canopy",
+          "Daily aarti",
+          "Idol immersion"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "All day"
+      },
       "Christmas"
     ]
   },
@@ -64,8 +130,34 @@
     "id": "INGJ",
     "name": "Gujarat",
     "festivals": [
-      "Diwali",
-      "Ganesh Chaturthi",
+      {
+        "name": "Diwali",
+        "food": "Ghughra and mathiya",
+        "duration": "5 days, doubling as New Year",
+        "celebration": "Coincides with the Gujarati New Year, so it's also a time for closing business account books and starting fresh ledgers.",
+        "rituals": [
+          "Chopda Pujan (ledger worship)",
+          "Rangoli",
+          "New Year greetings"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Ganesh Chaturthi",
+        "food": "Modak and sev",
+        "duration": "5 days",
+        "celebration": "Growing in popularity in cities like Ahmedabad and Surat, with community pandals inspired by Maharashtra's traditions.",
+        "rituals": [
+          "Community pandal worship",
+          "Daily aarti",
+          "Idol immersion"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": false,
+        "peakTime": "All day"
+      },
       "Navratri"
     ]
   },
@@ -83,7 +175,20 @@
     "id": "INJH",
     "name": "Jharkhand",
     "festivals": [
-      "Durga Puja"
+      {
+        "name": "Durga Puja",
+        "food": "Khichuri and litti chokha",
+        "duration": "5 days",
+        "celebration": "Marked with community pandals in Ranchi and Jamshedpur, often blending tribal art forms into the decorations.",
+        "rituals": [
+          "Pandal hopping",
+          "Tribal art displays",
+          "Idol immersion"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
@@ -95,10 +200,62 @@
     "id": "INKA",
     "name": "Karnataka",
     "festivals": [
-      "Pongal",
-      "Diwali",
-      "Ganesh Chaturthi",
-      "Eid"
+      {
+        "name": "Pongal",
+        "food": "Pongal with ghee and cashews",
+        "duration": "2 days",
+        "celebration": "Known locally as Makara Sankranti, marked by exchanging sugarcane and til-gud (sesame-jaggery) sweets between neighbors.",
+        "rituals": [
+          "Sharing til-gud sweets",
+          "Cattle decoration",
+          "Kite flying"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Diwali",
+        "food": "Chakli and holige",
+        "duration": "3 days",
+        "celebration": "Includes Naraka Chaturdashi to mark the defeat of a demon, along with cattle worship on Balipadyami day.",
+        "rituals": [
+          "Naraka Chaturdashi oil bath",
+          "Cattle worship (Balipadyami)",
+          "Lighting lamps"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Ganesh Chaturthi",
+        "food": "Modak and chakkuli",
+        "duration": "3 days",
+        "celebration": "Idols are typically smaller and immersed sooner, with home shrines decorated using banana leaves and flowers.",
+        "rituals": [
+          "Home shrine decoration",
+          "Daily aarti",
+          "Idol immersion"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "All day"
+      },
+      {
+        "name": "Eid",
+        "food": "Biryani and kheer",
+        "duration": "1 day",
+        "celebration": "Community prayers are held in large open grounds (Idgah), followed by neighborhood visits and food sharing.",
+        "rituals": [
+          "Idgah ground prayer",
+          "Neighborhood visits",
+          "Food sharing"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   },
   {
@@ -106,8 +263,34 @@
     "name": "Kerala",
     "festivals": [
       "Onam",
-      "Christmas",
-      "Eid"
+      {
+        "name": "Christmas",
+        "food": "Plum cake and wine",
+        "duration": "1 day",
+        "celebration": "Churches in Kochi and other coastal towns hold festive processions, and homes are decorated with paper stars.",
+        "rituals": [
+          "Church processions",
+          "Star decorations",
+          "Family feast"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Eid",
+        "food": "Biryani and pathiri",
+        "duration": "1 day",
+        "celebration": "Mosques in Kozhikode and Malappuram host large gatherings, with a strong tradition of communal feasting afterward.",
+        "rituals": [
+          "Mosque gathering",
+          "Communal feasting",
+          "Charity"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   },
   {
@@ -124,12 +307,77 @@
     "id": "INMH",
     "name": "Maharashtra",
     "festivals": [
-      "Diwali",
-      "Holi",
+      {
+        "name": "Diwali",
+        "food": "Faral (savory snacks) and sweets",
+        "duration": "4 days",
+        "celebration": "Begins with an early-morning oil bath (Abhyanga Snan), followed by days of exchanging homemade faral platters between families.",
+        "rituals": [
+          "Abhyanga Snan (oil bath)",
+          "Faral platter exchange",
+          "Rangoli"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Holi",
+        "food": "Puran poli",
+        "duration": "5 days (as Rangapanchami)",
+        "celebration": "The main color-throwing day is called Rangapanchami and falls a few days after the bonfire, extending the celebration.",
+        "rituals": [
+          "Holika bonfire",
+          "Rangapanchami color day",
+          "Puran poli feast"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "All day"
+      },
       "Ganesh Chaturthi",
-      "Navratri",
-      "Christmas",
-      "Eid"
+      {
+        "name": "Navratri",
+        "food": "Sabudana khichdi (fasting dish)",
+        "duration": "9 nights",
+        "celebration": "Celebrated with Garba nights in cities alongside traditional Ghatasthapana rituals at home to mark the start of the festival.",
+        "rituals": [
+          "Ghatasthapana",
+          "Garba nights",
+          "Fasting"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Christmas",
+        "food": "Christmas cake and kulkuls",
+        "duration": "1 day",
+        "celebration": "Mumbai's Christian communities, especially in Bandra, hold lively street celebrations and midnight mass gatherings.",
+        "rituals": [
+          "Street celebrations (Bandra)",
+          "Midnight mass",
+          "Baking kulkuls"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Eid",
+        "food": "Biryani and sheer khurma",
+        "duration": "1 day",
+        "celebration": "Mumbai's Mohammed Ali Road transforms into a festive food street in the days leading up to Eid.",
+        "rituals": [
+          "Festive food street",
+          "Morning prayer",
+          "Family feast"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   },
   {
@@ -146,7 +394,20 @@
     "id": "INMP",
     "name": "Madhya Pradesh",
     "festivals": [
-      "Holi"
+      {
+        "name": "Holi",
+        "food": "Gujiya and dahi bhalla",
+        "duration": "1 day",
+        "celebration": "Tribal communities in some regions celebrate with a distinct folk version called Bhagoria, combining Holi with a local fair.",
+        "rituals": [
+          "Bhagoria folk fair",
+          "Bonfire",
+          "Colored powder"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "All day"
+      }
     ]
   },
   {
@@ -163,7 +424,20 @@
     "id": "INOR",
     "name": "Odisha",
     "festivals": [
-      "Durga Puja"
+      {
+        "name": "Durga Puja",
+        "food": "Khichuri and dahi bara",
+        "duration": "4 days",
+        "celebration": "Known locally for grand illuminated pandals in Cuttack, with artistic silver-thread (tarakasi) decorations.",
+        "rituals": [
+          "Tarakasi (silver filigree) decor",
+          "Pandal hopping",
+          "Idol immersion"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
@@ -180,9 +454,48 @@
     "id": "INRJ",
     "name": "Rajasthan",
     "festivals": [
-      "Diwali",
-      "Holi",
-      "Navratri"
+      {
+        "name": "Diwali",
+        "food": "Ghevar and dry fruit sweets",
+        "duration": "5 days",
+        "celebration": "Markets and havelis are decorated with elaborate lighting, and Lakshmi Puja is performed with particular emphasis on wealth and prosperity.",
+        "rituals": [
+          "Havelis lit with lamps",
+          "Lakshmi Puja",
+          "Fireworks"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Holi",
+        "food": "Gujiya and thandai",
+        "duration": "2 days",
+        "celebration": "Includes the Elephant Festival in Jaipur, with elephants painted in bright colors ahead of the main celebrations.",
+        "rituals": [
+          "Elephant Festival (Jaipur)",
+          "Bonfire",
+          "Colored powder"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "All day"
+      },
+      {
+        "name": "Navratri",
+        "food": "Kuttu ki puri (fasting dish)",
+        "duration": "9 nights",
+        "celebration": "Marked by Ramlila performances retelling the story of Lord Rama, culminating in Dussehra on the tenth day.",
+        "rituals": [
+          "Ramlila performances",
+          "Fasting",
+          "Effigy burning on Dussehra"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
@@ -194,8 +507,34 @@
     "id": "INTG",
     "name": "Telangana",
     "festivals": [
-      "Pongal",
-      "Eid"
+      {
+        "name": "Pongal",
+        "food": "Pongal and Ariselu sweets",
+        "duration": "3 days",
+        "celebration": "Villages host Bhogi bonfires on the first day and Haridasu folk singers visit homes seeking alms.",
+        "rituals": [
+          "Bhogi bonfire",
+          "Haridasu folk performances",
+          "Gangireddu (decorated bull) shows"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Eid",
+        "food": "Biryani and Eid sweets",
+        "duration": "1 day",
+        "celebration": "Hyderabad's Charminar area sees large gatherings for prayer, followed by its famous biryani served at family feasts.",
+        "rituals": [
+          "Prayer near Charminar",
+          "Hyderabadi biryani feast",
+          "Charity"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   },
   {
@@ -203,16 +542,68 @@
     "name": "Tamil Nadu",
     "festivals": [
       "Pongal",
-      "Diwali",
-      "Ganesh Chaturthi",
-      "Christmas"
+      {
+        "name": "Diwali",
+        "food": "Deepavali legiyam and murukku",
+        "duration": "1 main day",
+        "celebration": "Celebrated a day earlier than North India, starting with an oil bath before sunrise, followed by bursting crackers and a festive breakfast.",
+        "rituals": [
+          "Pre-dawn oil bath",
+          "Bursting crackers early morning",
+          "Murukku making"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Ganesh Chaturthi",
+        "food": "Modak (Kozhukattai)",
+        "duration": "3 days",
+        "celebration": "Known as Vinayagar Chaturthi, celebrated with kozhukattai offerings and eco-friendly clay idols in many temples.",
+        "rituals": [
+          "Kozhukattai offerings",
+          "Temple processions",
+          "Idol immersion"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Morning"
+      },
+      {
+        "name": "Christmas",
+        "food": "Plum cake",
+        "duration": "1 day",
+        "celebration": "Celebrated prominently in Chennai with lit-up churches and carol groups going door to door in the days before.",
+        "rituals": [
+          "Carol singing",
+          "Church illumination",
+          "Family feast"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
     "id": "INTR",
     "name": "Tripura",
     "festivals": [
-      "Durga Puja"
+      {
+        "name": "Durga Puja",
+        "food": "Khichuri and labra",
+        "duration": "5 days",
+        "celebration": "Strongly influenced by Bengali tradition, with community pandals and cultural competitions across the state.",
+        "rituals": [
+          "Pandal hopping",
+          "Cultural competitions",
+          "Idol immersion"
+        ],
+        "scale": "State-wide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      }
     ]
   },
   {
@@ -221,7 +612,20 @@
     "festivals": [
       "Diwali",
       "Holi",
-      "Navratri",
+      {
+        "name": "Navratri",
+        "food": "Singhara atta dishes (fasting)",
+        "duration": "9 nights",
+        "celebration": "Known for grand Ramlila stagings, especially in Varanasi, with elaborate effigies of Ravana burned on Dussehra.",
+        "rituals": [
+          "Ramlila performances",
+          "Kanya Pujan (worship of young girls)",
+          "Effigy burning"
+        ],
+        "scale": "Regional",
+        "publicHoliday": false,
+        "peakTime": "Evening"
+      },
       "Eid"
     ]
   },
@@ -235,8 +639,49 @@
     "name": "West Bengal",
     "festivals": [
       "Durga Puja",
-      "Christmas",
-      "Eid"
+      {
+        "name": "Christmas",
+        "food": "Christmas cake",
+        "duration": "1 day",
+        "celebration": "Kolkata's Park Street lights up with elaborate decorations, drawing large crowds regardless of religion.",
+        "rituals": [
+          "Park Street illumination",
+          "Midnight mass",
+          "Family feast"
+        ],
+        "scale": "Citywide",
+        "publicHoliday": true,
+        "peakTime": "Evening"
+      },
+      {
+        "name": "Eid",
+        "food": "Biryani and sheer khurma",
+        "duration": "1 day",
+        "celebration": "Large congregational prayers are held at Red Road in Kolkata, followed by visits to family and friends.",
+        "rituals": [
+          "Congregational prayer (Red Road)",
+          "Sheer khurma sharing",
+          "Family visits"
+        ],
+        "scale": "Regional",
+        "publicHoliday": true,
+        "peakTime": "Morning"
+      }
     ]
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

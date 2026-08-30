@@ -1,232 +1,369 @@
+
 [
-    {
-        "name": "Pongal",
-        "origin": {
-            "id": "INTN",
-            "name": "Tamil Nadu"
-        },
-        "food": "Sakkarai Pongal",
-        "celebratedIn": [
-            {
-                "id": "INKA",
-                "name": "Karnataka"
-            },
-            {
-                "id": "INAP",
-                "name": "Andhra Pradesh"
-            },
-            {
-                "id": "INTG",
-                "name": "Telangana"
-            }
-        ]
+  {
+    "name": "Pongal",
+    "significance": "Thanksgiving to the Sun God for a good harvest.",
+    "season": "Mid-January",
+    "origin": {
+      "id": "INTN",
+      "name": "Tamil Nadu",
+      "food": "Sakkarai Pongal",
+      "duration": "4 days",
+      "celebration": "Families boil fresh rice with milk and jaggery in a new clay pot, letting it overflow as a symbol of abundance, and decorate homes with kolam patterns.",
+      "rituals": [
+        "Kolam floor art",
+        "Boiling over of milk",
+        "Cattle worship (Mattu Pongal)"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Morning"
     },
-    {
-        "name": "Diwali",
-        "origin": {
-            "id": "INUP",
-            "name": "Uttar Pradesh"
-        },
-        "food": "Sweets",
-        "celebratedIn": [
-            {
-                "id": "INMH",
-                "name": "Maharashtra"
-            },
-            {
-                "id": "INGJ",
-                "name": "Gujarat"
-            },
-            {
-                "id": "INRJ",
-                "name": "Rajasthan"
-            },
-            {
-                "id": "INTN",
-                "name": "Tamil Nadu"
-            },
-            {
-                "id": "INKA",
-                "name": "Karnataka"
-            }
-        ]
+    "celebratedIn": [
+      {
+        "id": "INKA",
+        "name": "Karnataka"
+      },
+      {
+        "id": "INAP",
+        "name": "Andhra Pradesh"
+      },
+      {
+        "id": "INTG",
+        "name": "Telangana"
+      }
+    ]
+  },
+  {
+    "name": "Diwali",
+    "significance": "Celebrates the victory of light over darkness and good over evil.",
+    "season": "October or November",
+    "origin": {
+      "id": "INUP",
+      "name": "Uttar Pradesh",
+      "food": "Sweets",
+      "duration": "5 days",
+      "celebration": "Homes are lit with rows of diyas and decorated with rangoli, families perform Lakshmi Puja in the evening, and the night ends with fireworks.",
+      "rituals": [
+        "Lighting diyas",
+        "Lakshmi Puja",
+        "Rangoli",
+        "Fireworks"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Evening"
     },
-    {
-        "name": "Holi",
-        "origin": {
-            "id": "INUP",
-            "name": "Uttar Pradesh"
-        },
-        "food": "Gujiya",
-        "celebratedIn": [
-            {
-                "id": "INRJ",
-                "name": "Rajasthan"
-            },
-            {
-                "id": "INMP",
-                "name": "Madhya Pradesh"
-            },
-            {
-                "id": "INDL",
-                "name": "Delhi"
-            },
-            {
-                "id": "INMH",
-                "name": "Maharashtra"
-            }
-        ]
+    "celebratedIn": [
+      {
+        "id": "INMH",
+        "name": "Maharashtra"
+      },
+      {
+        "id": "INGJ",
+        "name": "Gujarat"
+      },
+      {
+        "id": "INRJ",
+        "name": "Rajasthan"
+      },
+      {
+        "id": "INTN",
+        "name": "Tamil Nadu"
+      },
+      {
+        "id": "INKA",
+        "name": "Karnataka"
+      }
+    ]
+  },
+  {
+    "name": "Holi",
+    "significance": "Marks the arrival of spring and the triumph of good over evil.",
+    "season": "March",
+    "origin": {
+      "id": "INUP",
+      "name": "Uttar Pradesh",
+      "food": "Gujiya",
+      "duration": "2 days",
+      "celebration": "A bonfire on the eve (Holika Dahan) is followed by a day of throwing colored powder and water, especially lively in Mathura and Vrindavan.",
+      "rituals": [
+        "Holika Dahan bonfire",
+        "Throwing colored powder",
+        "Water balloons"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "All day"
     },
-    {
-        "name": "Onam",
-        "origin": {
-            "id": "INKL",
-            "name": "Kerala"
-        },
-        "food": "Onam Sadya",
-        "celebratedIn": []
+    "celebratedIn": [
+      {
+        "id": "INRJ",
+        "name": "Rajasthan"
+      },
+      {
+        "id": "INMP",
+        "name": "Madhya Pradesh"
+      },
+      {
+        "id": "INDL",
+        "name": "Delhi"
+      },
+      {
+        "id": "INMH",
+        "name": "Maharashtra"
+      }
+    ]
+  },
+  {
+    "name": "Onam",
+    "significance": "Welcomes the legendary King Mahabali back to Kerala.",
+    "season": "August or September",
+    "origin": {
+      "id": "INKL",
+      "name": "Kerala",
+      "food": "Onam Sadya",
+      "duration": "10 days",
+      "celebration": "Intricate pookalam flower carpets are laid at doorsteps, snake boat races are held on rivers, and a grand feast is served on a banana leaf.",
+      "rituals": [
+        "Pookalam flower carpets",
+        "Vallam Kali boat races",
+        "Onam Sadya feast"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "All day"
     },
-    {
-        "name": "Bihu",
-        "origin": {
-            "id": "INAS",
-            "name": "Assam"
-        },
-        "food": "Pitha",
-        "celebratedIn": []
+    "celebratedIn": []
+  },
+  {
+    "name": "Bihu",
+    "significance": "Celebrates the Assamese New Year and the farming cycle.",
+    "season": "April",
+    "origin": {
+      "id": "INAS",
+      "name": "Assam",
+      "food": "Pitha",
+      "duration": "1 week",
+      "celebration": "Cattle are washed and fed in a special ritual on the first day, followed by folk dance, music, and preparation of traditional rice cakes.",
+      "rituals": [
+        "Cattle washing (Bohag Bihu)",
+        "Bihu folk dance",
+        "Making pitha rice cakes"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Morning"
     },
-    {
-        "name": "Durga Puja",
-        "origin": {
-            "id": "INWB",
-            "name": "West Bengal"
-        },
-        "food": "Khichuri",
-        "celebratedIn": [
-            {
-                "id": "INTR",
-                "name": "Tripura"
-            },
-            {
-                "id": "INOD",
-                "name": "Odisha"
-            },
-            {
-                "id": "INAS",
-                "name": "Assam"
-            },
-            {
-                "id": "INJH",
-                "name": "Jharkhand"
-            }
-        ]
+    "celebratedIn": []
+  },
+  {
+    "name": "Durga Puja",
+    "significance": "Celebrates Goddess Durga's victory over the demon Mahishasura.",
+    "season": "September or October",
+    "origin": {
+      "id": "INWB",
+      "name": "West Bengal",
+      "food": "Khichuri",
+      "duration": "5 days",
+      "celebration": "Elaborately decorated pandals house clay idols of Goddess Durga, with processions, dhak drumming, and cultural performances leading up to idol immersion.",
+      "rituals": [
+        "Pandal hopping",
+        "Dhak drumming",
+        "Idol immersion (Visarjan)"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Evening"
     },
-    {
-        "name": "Ganesh Chaturthi",
-        "origin": {
-            "id": "INMH",
-            "name": "Maharashtra"
-        },
-        "food": "Modak",
-        "celebratedIn": [
-            {
-                "id": "INKA",
-                "name": "Karnataka"
-            },
-            {
-                "id": "INGA",
-                "name": "Goa"
-            },
-            {
-                "id": "INTN",
-                "name": "Tamil Nadu"
-            },
-            {
-                "id": "INGJ",
-                "name": "Gujarat"
-            }
-        ]
+    "celebratedIn": [
+      {
+        "id": "INTR",
+        "name": "Tripura"
+      },
+      {
+        "id": "INOR",
+        "name": "Odisha"
+      },
+      {
+        "id": "INAS",
+        "name": "Assam"
+      },
+      {
+        "id": "INJH",
+        "name": "Jharkhand"
+      }
+    ]
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "significance": "Celebrates the birth of Lord Ganesha.",
+    "season": "August or September",
+    "origin": {
+      "id": "INMH",
+      "name": "Maharashtra",
+      "food": "Modak",
+      "duration": "Up to 11 days",
+      "celebration": "Clay idols of Lord Ganesha are installed in homes and public pandals, worshipped daily, and then taken in a musical procession for immersion.",
+      "rituals": [
+        "Idol installation",
+        "Daily aarti",
+        "Visarjan (immersion procession)"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "All day"
     },
-    {
-        "name": "Navratri",
-        "origin": {
-            "id": "INGJ",
-            "name": "Gujarat"
-        },
-        "food": "Fasting dishes",
-        "celebratedIn": [
-            {
-                "id": "INMH",
-                "name": "Maharashtra"
-            },
-            {
-                "id": "INRJ",
-                "name": "Rajasthan"
-            },
-            {
-                "id": "INUP",
-                "name": "Uttar Pradesh"
-            },
-            {
-                "id": "INDL",
-                "name": "Delhi"
-            }
-        ]
+    "celebratedIn": [
+      {
+        "id": "INKA",
+        "name": "Karnataka"
+      },
+      {
+        "id": "INGA",
+        "name": "Goa"
+      },
+      {
+        "id": "INTN",
+        "name": "Tamil Nadu"
+      },
+      {
+        "id": "INGJ",
+        "name": "Gujarat"
+      }
+    ]
+  },
+  {
+    "name": "Navratri",
+    "significance": "Honors the nine forms of Goddess Durga.",
+    "season": "September or October",
+    "origin": {
+      "id": "INGJ",
+      "name": "Gujarat",
+      "food": "Fasting dishes",
+      "duration": "9 nights",
+      "celebration": "Famous for Garba and Dandiya Raas, danced in large circles late into the night, often accompanied by fasting during the day.",
+      "rituals": [
+        "Garba dance",
+        "Dandiya Raas",
+        "Fasting"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Evening"
     },
-    {
-        "name": "Christmas",
-        "origin": {
-            "id": "INGA",
-            "name": "Goa"
-        },
-        "food": "Christmas cake",
-        "celebratedIn": [
-            {
-                "id": "INKL",
-                "name": "Kerala"
-            },
-            {
-                "id": "INTN",
-                "name": "Tamil Nadu"
-            },
-            {
-                "id": "INMH",
-                "name": "Maharashtra"
-            },
-            {
-                "id": "INWB",
-                "name": "West Bengal"
-            }
-        ]
+    "celebratedIn": [
+      {
+        "id": "INMH",
+        "name": "Maharashtra"
+      },
+      {
+        "id": "INRJ",
+        "name": "Rajasthan"
+      },
+      {
+        "id": "INUP",
+        "name": "Uttar Pradesh"
+      },
+      {
+        "id": "INDL",
+        "name": "Delhi"
+      }
+    ]
+  },
+  {
+    "name": "Christmas",
+    "significance": "Celebrates the birth of Jesus Christ.",
+    "season": "25 December",
+    "origin": {
+      "id": "INGA",
+      "name": "Goa",
+      "food": "Christmas cake",
+      "duration": "1 day (with weeks of build-up)",
+      "celebration": "Churches hold midnight mass with carol singing, homes put up stars and cribs, and families bake a wide variety of traditional sweets.",
+      "rituals": [
+        "Midnight mass",
+        "Decorating stars and cribs",
+        "Baking a variety of sweets"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Evening"
     },
-    {
-        "name": "Eid",
-        "origin": {
-            "id": "INUP",
-            "name": "Uttar Pradesh"
-        },
-        "food": "Biryani and sweets",
-        "celebratedIn": [
-            {
-                "id": "INWB",
-                "name": "West Bengal"
-            },
-            {
-                "id": "INMH",
-                "name": "Maharashtra"
-            },
-            {
-                "id": "INTG",
-                "name": "Telangana"
-            },
-            {
-                "id": "INKA",
-                "name": "Karnataka"
-            },
-            {
-                "id": "INKL",
-                "name": "Kerala"
-            }
-        ]
-    }
+    "celebratedIn": [
+      {
+        "id": "INKL",
+        "name": "Kerala"
+      },
+      {
+        "id": "INTN",
+        "name": "Tamil Nadu"
+      },
+      {
+        "id": "INMH",
+        "name": "Maharashtra"
+      },
+      {
+        "id": "INWB",
+        "name": "West Bengal"
+      }
+    ]
+  },
+  {
+    "name": "Eid",
+    "significance": "Marks the end of the month-long fast of Ramadan.",
+    "season": "Varies (follows the lunar calendar)",
+    "origin": {
+      "id": "INUP",
+      "name": "Uttar Pradesh",
+      "food": "Biryani and sweets",
+      "duration": "1 to 3 days",
+      "celebration": "Begins with a special morning prayer at the mosque, followed by family visits, giving to charity, and a shared festive meal.",
+      "rituals": [
+        "Morning prayer at mosque",
+        "Giving to charity (Zakat)",
+        "Family feast"
+      ],
+      "scale": "State-wide",
+      "publicHoliday": true,
+      "peakTime": "Morning"
+    },
+    "celebratedIn": [
+      {
+        "id": "INWB",
+        "name": "West Bengal"
+      },
+      {
+        "id": "INMH",
+        "name": "Maharashtra"
+      },
+      {
+        "id": "INTG",
+        "name": "Telangana"
+      },
+      {
+        "id": "INKA",
+        "name": "Karnataka"
+      },
+      {
+        "id": "INKL",
+        "name": "Kerala"
+      }
+    ]
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

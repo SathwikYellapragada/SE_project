@@ -25,17 +25,17 @@ function loadStateInfo(stateId) {
 
   activeHighlightedState = document.getElementById(state.id);
   activeHighlightedState.style.fill = '#e9f542';
-
+let carnivalButtons=document.getElementById("state-info");
   if(state.festivals.length > 0){      
     document.getElementById("state-info").innerHTML=`          
     <h1>${state.name} Festivals </h1> `;
     state.festivals.forEach(function(festival){
-      let carnivalButtons =document.getElementById("state-info");
+      const festivalName = typeof festival === 'string' ? festival : festival.name;
       let clicker = document.createElement("button");
-      clicker.textContent = festival;
+      clicker.textContent = festivalName;
       clicker.classList.add("Festival-Button");
       clicker.onclick = function(){    
-        document.getElementById("value").value = festival;           
+        document.getElementById("value").value = festivalName;           
         searchFestival();         
         document.getElementById("value").value = "";           
       };
